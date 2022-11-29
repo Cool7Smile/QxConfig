@@ -1,10 +1,12 @@
 /*
+ * QuantumultX:
+ * 
  * [MITM]	
  * hostname = biz.caiyunapp.com	
  * 	
- * 
- * QuantumultX:
- ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Cool7Smile/QxConfig/main/Scripts/CaiYun.js
+ * [rewrite_local]
+ *  ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Cool7Smile/QxConfig/main/Scripts/CaiYun.js
+ *
  */	
 
 
