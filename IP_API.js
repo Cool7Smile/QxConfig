@@ -36,6 +36,6 @@ const obj = JSON.parse(body);
 const title = `${flags.get(obj.countryCode)} ${placeAdder(obj.country)} ${placeAdder(obj.city)}`;
 const subtitle = `${geticon(obj.proxy, '⚠︎') + geticon(obj.hosting, '🅗') + obj.isp}  ➤  ${obj.query}`;
 const ip = obj.query;
-const description = `${'\n' + '位置 ['}${placeAdder(obj.country)}${placeAdder(obj.city)}${placeAdder(obj.district)}]\n\n` + `IP [${obj.query}]\n\n` + `ISP [${obj.isp}]\n\n` + `ORG [${obj.org}]\n\n` + `ASN [${obj.as.replace(/ .*$/gi, '')}]\n\n` + `时区 [${obj.timezone}]\n\n` + `邮编 [${obj.zip}]\n\n` + '定位 [' + ` 纬度 ${obj.lat},` + `经度 ${obj.lon} ]`;
+const description = `${'\n' + '位置 ['}${placeAdder(obj.country)}${placeAdder(obj.regionName)}${placeAdder(obj.city)}${placeAdder(obj.district)}]\n\n` + `IP [${obj.query}]\n\n` + `ISP [${obj.isp}]\n\n` + `ORG [${obj.org}]\n\n` + `ASN [${obj.as.replace(/ .*$/gi, '')}]\n\n` + `时区 [${obj.timezone}]\n\n` + `邮编 [${obj.zip}]\n\n` + '定位 [' + ` 纬度 ${obj.lat},` + `经度 ${obj.lon} ]`;
 
 $done({ title, subtitle, ip, description,});
