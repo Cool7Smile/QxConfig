@@ -1,7 +1,7 @@
 
 // 自用qx标题显示脚本，从KOP-XIAO修改
 
-// usage:  geo_location_checker=http://ip-api.com/json/?fields=21753855&lang=zh-CN, https://raw.githubusercontent.com/Tru-tru/QuantumultX/main/Geo-location-checker/Tru-IP-Sample2.js
+// usage:  geo_location_checker=http://ip-api.com/json/?fields=21753855&lang=zh-CN, https://raw.githubusercontent.com/Cool7Smile/QxConfig/main/IP_API.js
 
 // original Shawn's:  https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 
